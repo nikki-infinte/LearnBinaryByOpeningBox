@@ -1,0 +1,53 @@
+/* Reset margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* Centered heading */
+h1 {
+    color: brown;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Image container styling */
+.imagecontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    gap: 15px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+/* Image styling */
+.imagecontainer img {
+    width: 100px;
+    height: 150px; /* Adjusted for a better aspect ratio */
+    cursor: pointer;
+}
+
+/* Output area styling */
+
+
+ .outputarea p {
+    margin-top:100px;
+}
